@@ -1,0 +1,31 @@
+$colorDeFondo: linear-gradient(90deg, #ee492c 1%, #ccc309 30%, #00d4ff 100%);
+$tamañoRedes: font-size 25px ;
+
+
+//mapa
+
+$redes: (
+    facebook: #3030b8,
+    youtube: red,
+    twitter: #000308,
+    whatsapp: #1a961a,
+);
+
+@each $key, $value in $redes {
+    .redes-#{$key} {
+        color: $value;
+    }
+}
+
+//map-get
+
+$edit:(
+    oculto: hidden,
+    centro: center,
+)
+
+
+
+
+
+

@@ -1,0 +1,200 @@
+* { 
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ 
+ 
+       
+   .contenedor {
+            .sidebar{
+         grid-column: 3 / 4;
+        text-align: map-get($edit, centro);
+        display: flex;
+        align-items: map-get($edit, centro);
+        justify-content: map-get($edit, centro);
+        min-height: 100px;
+        grid-area: sidebar;
+   }
+}
+
+.contenedor{
+    .contenido1 {
+display: grid;
+grid-gap: 20px;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, auto);
+display: flex;
+align-items: center;
+justify-content: space-around; 
+  }
+}
+
+ 
+ 
+ 
+ .contenido1{
+         text-align: map-get($edit, centro);
+ }
+ 
+ .header{
+         grid-area: header;
+         display: flex;
+         justify-content: space-between;
+         
+ }
+ 
+ 
+
+
+ 
+ 
+
+
+.nav-item{
+    &:hover{
+        background: rgba(37, 233, 135, 0.897);
+        box-shadow: 0px 0px 15px 15px #0c60c0;
+        -webkit-box-shadow: 0px 0px 15px 15px #0c60c0;
+        transition: .7s;
+        border: 5px;
+        border-radius: 87px;
+        border-bottom-style: map-get($edit, oculto);
+
+        }
+}
+
+
+
+
+
+
+
+.navbar {
+    background-color: transparent !important;
+}
+
+
+.navbar-brand { 
+            width: 120px; 
+            border-style: solid; 
+            border-radius: 100%;
+            border-color: black;
+            background-color: rgba(37, 233, 135, 0.897);
+            
+             
+     
+}
+
+.navbar-brand{
+    &:hover{
+        border-radius:30%;
+        -webkit-border-radius:100%;
+        box-shadow: 0px 0px 15px 15px #bbc2b0;
+        -webkit-box-shadow: 0px 0px 15px 15px #0c60c0;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        }
+}
+
+
+
+
+body {
+    background: rgb(2,0,36);
+    background: $colorDeFondo;
+    font-family: 'Original Surfer', cursive;
+    margin: 20px;
+    background-repeat: no-repeat;
+    overflow-x: map-get($edit, oculto);
+     }
+                   
+
+ 
+
+.widget1{
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+
+.widget2{
+    height: 100px;
+    text-align: map-get($edit, centro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../img/footer1.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+    margin: 3rem;
+    grid-area: widget2;
+}
+.saludo{
+    max-width: 100%;
+    margin-bottom: 6rem;
+  }
+
+
+
+ 
+ 
+ 
+p {
+    color: rgb(3, 3, 3)
+}
+ 
+ 
+ 
+h6 {
+    padding-top: 50px;
+    text-align: right;
+    font-size: 12px;
+    color: rgb(5, 0, 0);
+    
+}
+
+.container {
+        .col{
+            padding: 1rem;
+        }
+}
+.table{
+        margin: 0 auto;
+        padding: 2rem;
+}
+ 
+ 
+ 
+ 
+.circle {
+    margin: auto;
+    @include sizes (300px, 300px);
+    border-radius: 100%;
+    background: #4e895300;
+    margin-top: 150px;
+  }
+  .introduccion{
+      margin: 5rem;
+  }
+  
+  .surfar {
+    font-family: 'Lobster', cursive;
+    font-size: 5rem;
+    color: #e770bd;
+    text-align: map-get($edit, centro);
+    line-height: 50px;
+    margin-top: -450px;
+    -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  -ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+  transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
+    /*-----------------------*/
+    text-shadow: 1px 1px #4A744D, 2px 2px #4A744D, 3px 3px #4A744D, 4px 4px #4A744D, 5px 5px #4A744D, 6px 6px #4A744D, 7px 7px #4A744D, 8px 8px #4A744D, 9px 9px #4A744D, 10px 10px #4A744D, 11px 11px #4A744D, 12px 12px #4A744D, 13px 13px #4A744D, 14px 14px #4A744D, 15px 15px #4A744D, 16px 16px #4A744D, 17px 17px #4A744D, 18px 18px #4A744D, 19px 19px #4A744D, 20px 20px #4A744D, 21px 21px #4A744D, 22px 22px #4A744D, 23px 23px #4A744D, 24px 24px #4A744D, 25px 25px #4A744D, 26px 26px 6px #06520C;
+    
+  }
+
+
+
