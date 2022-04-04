@@ -299,15 +299,14 @@
     max-width: 100%;
   }
   .saludo{
-    max-width: 100%;
-    margin-bottom: 3rem;
+    display: none;
   }
   
   
   .footer {
     max-width: 100%;
     grid-area: footer;
-  margin-top: 2rem; }
+  margin-top: -11rem; }
   
   h6 {
     padding-top: 50px;
