@@ -561,7 +561,8 @@ textarea {
     height: 200px; }
   .surfar {
     font-size: 2rem;
-    max-width: 100%; }
+    max-width: 100%;
+    font-family: unset; }
   .introduccion {
     margin: 0 auto;
     margin-top: 3rem;
