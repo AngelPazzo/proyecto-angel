@@ -175,7 +175,12 @@
       max-width: 100%;
     }
     
-  
+    .shiny{
+      transform: translateZ(10px);
+      max-width: 100%;
+      
+  }
+
 
   }
   
@@ -356,6 +361,14 @@
     }
 
    
+.shiny{
+  max-width: 100%;
+  
+}
+.shiny1{
+max-width: 100%;
+overflow: hidden;
+}
 
 
 

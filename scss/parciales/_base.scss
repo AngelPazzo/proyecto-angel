@@ -37,13 +37,7 @@ justify-content: space-around;
          text-align: map-get($edit, centro);
  }
  
- .header{
-         grid-area: header;
-         display: flex;
-         justify-content: space-between;
-         
- }
- 
+
  
 
 
@@ -96,6 +90,21 @@ justify-content: space-around;
         -webkit-transform: rotate(360deg);
         }
 }
+
+.shiny{  
+    position:relative;
+    overflow: hidden;
+  }
+  .shiny1{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .navbar-nav{
+      display: flex;
+      justify-content: center;
+  }
+  
 
 
 

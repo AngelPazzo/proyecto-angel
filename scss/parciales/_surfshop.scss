@@ -12,7 +12,8 @@
    }
   
    .card-title {
-     color: #fcf9fa; }
+     color: #fcf9fa;
+    text-align: map-get($edit, centro); }
   
    .card-text {
      color: aquamarine; }

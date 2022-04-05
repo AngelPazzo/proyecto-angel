@@ -37,11 +37,6 @@
 .contenido1 {
   text-align: center; }
 
-.header {
-  grid-area: header;
-  display: flex;
-  justify-content: space-between; }
-
 .nav-item:hover {
   background: rgba(37, 233, 135, 0.897);
   box-shadow: 0px 0px 15px 15px #0c60c0;
@@ -68,6 +63,18 @@
   -webkit-box-shadow: 0px 0px 15px 15px #0c60c0;
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg); }
+
+.shiny {
+  position: relative;
+  overflow: hidden; }
+
+.shiny1 {
+  display: flex;
+  justify-content: center; }
+
+.navbar-nav {
+  display: flex;
+  justify-content: center; }
 
 body {
   background: #020024;
@@ -452,6 +459,9 @@ textarea {
     max-width: 100%;
     margin-bottom: 4rem; }
   .img-fluid {
+    max-width: 100%; }
+  .shiny {
+    transform: translateZ(10px);
     max-width: 100%; } }
 
 @media screen and (max-width: 600px) {
@@ -568,7 +578,12 @@ textarea {
     margin-top: 3rem;
     max-width: 100%; }
   .img-fluid {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .shiny {
+    max-width: 100%; }
+  .shiny1 {
+    max-width: 100%;
+    overflow: hidden; } }
 
 /* NOSOTROS TEAM */
 .navbar {
@@ -678,7 +693,8 @@ h2 {
   object-fit: cover; }
 
 .card-title {
-  color: #fcf9fa; }
+  color: #fcf9fa;
+  text-align: center; }
 
 .card-text {
   color: aquamarine; }
