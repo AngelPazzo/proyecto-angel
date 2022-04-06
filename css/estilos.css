@@ -470,7 +470,11 @@ textarea {
 @media screen and (max-width: 768px) {
   .container {
     max-width: 100%;
-    text-align: -webkit-center; } }
+    text-align: -webkit-center; }
+  .container .imgHome {
+    width: 100%;
+    height: 250px;
+    object-fit: contain; } }
 
 @media screen and (max-width: 600px) {
   h2 {
