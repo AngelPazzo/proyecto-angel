@@ -697,6 +697,15 @@ h2 {
 :root {
   --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important; }
 
+.card-body {
+  text-align: center;
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  width: max-content; }
+
+div.card {
+  width: auto; }
+
 .card {
   background: #222;
   border: 1px solid #dd2476;
