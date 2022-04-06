@@ -467,6 +467,11 @@ textarea {
     transform: translateZ(10px);
     max-width: 100%; } }
 
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    text-align: -webkit-center; } }
+
 @media screen and (max-width: 600px) {
   h2 {
     margin-bottom: 25px;
@@ -695,7 +700,10 @@ h2 {
 
 /* SURFSHOP */
 :root {
-  --gradient: linear-gradient(to left top, #DD2476 10%, #FF512F 90%) !important; }
+  --gradient: linear-gradient(to left top, #24dd90 10%, #f10059 90%) !important; }
+
+a.btn {
+  color: #13ec92; }
 
 .card-body {
   text-align: center;

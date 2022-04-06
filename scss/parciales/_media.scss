@@ -191,7 +191,12 @@
   
   
   
-  
+  @media screen and (max-width: 768px){
+    .container {
+      max-width: 100%;
+      text-align: -webkit-center;
+    }
+  }
   
 
 
