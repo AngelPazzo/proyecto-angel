@@ -295,6 +295,9 @@ textarea {
   background: #474544;
   color: #F2F3EB; }
 
+.contactoTraining {
+  border-radius: 13px; }
+
 .footer {
   width: 100%;
   float: left;
@@ -677,9 +680,18 @@ h2 {
   background-repeat: no-repeat;
   max-width: 100%; }
 
+.roundedTraining {
+  border-radius: 16px; }
+
 .listaPlayas {
   list-style: none;
   text-align: center; }
+
+.cam {
+  border-radius: 13px; }
+
+.mapa {
+  border-radius: 13px; }
 
 /* SURFSHOP */
 :root {
