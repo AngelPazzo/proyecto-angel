@@ -44,7 +44,8 @@
   transition: .7s;
   border: 5px;
   border-radius: 87px;
-  border-bottom-style: hidden; }
+  border-bottom-style: hidden;
+  width: 5rem; }
 
 .navbar {
   background-color: transparent !important; }
