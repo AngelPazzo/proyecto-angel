@@ -24,7 +24,7 @@ button, select {
                 }
 
 button, input, select, textarea {
-                                 color: #5A5A5A;
+                                 color: #000000;
                                  font: inherit;
                                  margin: 0;
                                 }
@@ -38,11 +38,12 @@ textarea {
          }
 
 #container {
-            border: solid 3px #474544;
+            border: solid 3px #000000;
             max-width: 768px;
             margin: 60px auto;
             position: relative;
             font-size: 13px;
+            border-radius: 13px;
            }
 
 form {
@@ -51,7 +52,7 @@ form {
 }
 
 h1 {
-    color: #474544;
+    color: #000000;
     font-size: 32px;
     font-weight: 700;
     letter-spacing: 7px;
@@ -60,7 +61,7 @@ h1 {
     }
 
 .underline {
-            border-bottom: solid 2px #474544;
+            border-bottom: solid 2px #000000;
             margin: -0.512em auto;
             width: 80px;
             }
@@ -72,7 +73,7 @@ h1 {
 
 .icon {
        display: block;
-       fill: #474544;
+       fill: #000000;
        @include sizes (50px, 50px);
        margin: 0 auto;
       }
@@ -85,8 +86,8 @@ h1 {
 input[type='text'], [type='email'], select, textarea {
 	                                                  background: none;
                                                       border: none;
-	                                                  border-bottom: solid 2px #474544;
-	                                                  color: #474544;
+	                                                  border-bottom: solid 2px #000000;
+	                                                  color: #000000;
 	                                                  font-size: 1.000em;
                                                       font-weight: 400;
                                                       letter-spacing: 1px;
@@ -146,27 +147,27 @@ textarea {
          }
 
 ::-webkit-input-placeholder {
-	                         color: #474544;
+	                         color: #000000;
                             }
 
 :-moz-placeholder { 
-	               color: #474544;
+	               color: #000000;
 	               opacity: 1;
                   }
 
 ::-moz-placeholder {
-	                color: #474544;
+	                color: #000000;
 	                opacity: 1;
                    }
 
 :-ms-input-placeholder {
-	                    color: #474544;
+	                    color: #000000;
                        }
 
 #form_button {
               background: none;
-              border: solid 2px #474544;
-              color: #474544;
+              border: solid 2px #000000;
+              color: #000000;
               cursor: pointer;
               display: inline-block;
               font-family: 'Helvetica', Arial, sans-serif;
@@ -183,10 +184,14 @@ textarea {
              }
 
 #form_button:hover {
-                    background: #474544;
-                    color: #F2F3EB;
+                    background: #000000;
+                    color: #000000;
                    }
 
 .contactoTraining{
+      border-radius: 13px;
+}
+
+.trailer{
       border-radius: 13px;
 }

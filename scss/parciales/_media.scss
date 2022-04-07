@@ -1,10 +1,22 @@
-
+@media screen and (max-width: 2560px){
+  .saludo{
+    max-width: 100%;
+    margin-top: 30rem;
+    margin-bottom: 30rem;
+    z-index: -1;
+  }
+  .footer{
+    margin-top: 8rem;
+  }
+}
 
 
 @media screen and  (max-width: 1440px){
   .saludo{
     max-width: 100%;
-    margin-bottom: -2rem;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    z-index: -1;
   }
   .footer{
     margin-top: 8rem;
@@ -112,8 +124,16 @@
   .footer{
       max-width: 100%;
       grid-area: footer;
-      margin-top: -2rem;
+      margin-top: 4rem;
   }
+
+  .saludo{
+    max-width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    z-index: -1;
+  }
+
   
   .widget1 {
     margin-top: 30px;
@@ -167,10 +187,7 @@
       max-width: 100%;
     }
 
-    .saludo{
-      max-width: 100%;
-      margin-bottom: 4rem;
-    }
+    
     .img-fluid{
       max-width: 100%;
     }
@@ -203,6 +220,20 @@
   height: 250px;
   object-fit: contain;  
   }
+
+  .footer{
+    max-width: 100%;
+    grid-area: footer;
+    margin-top: 3rem;
+}
+
+.saludo{
+  max-width: 100%;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  z-index: -1;
+}
+
 
   }
   
@@ -315,6 +346,7 @@
     justify-content: map-get($edit, centro);
     grid-area: widget2; 
     max-width: 100%;
+
   }
   .saludo{
     display: none;

@@ -160,7 +160,7 @@ button, select {
   text-transform: none; }
 
 button, input, select, textarea {
-  color: #5A5A5A;
+  color: #000000;
   font: inherit;
   margin: 0; }
 
@@ -171,18 +171,19 @@ textarea {
   overflow: auto; }
 
 #container {
-  border: solid 3px #474544;
+  border: solid 3px #000000;
   max-width: 768px;
   margin: 60px auto;
   position: relative;
-  font-size: 13px; }
+  font-size: 13px;
+  border-radius: 13px; }
 
 form {
   padding: 37.5px;
   margin: 50px 0; }
 
 h1 {
-  color: #474544;
+  color: #000000;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 7px;
@@ -190,7 +191,7 @@ h1 {
   text-transform: uppercase; }
 
 .underline {
-  border-bottom: solid 2px #474544;
+  border-bottom: solid 2px #000000;
   margin: -0.512em auto;
   width: 80px; }
 
@@ -199,7 +200,7 @@ h1 {
 
 .icon {
   display: block;
-  fill: #474544;
+  fill: #000000;
   width: 50px;
   height: 50px;
   margin: 0 auto; }
@@ -211,8 +212,8 @@ h1 {
 input[type='text'], [type='email'], select, textarea {
   background: none;
   border: none;
-  border-bottom: solid 2px #474544;
-  color: #474544;
+  border-bottom: solid 2px #000000;
+  color: #000000;
   font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -261,23 +262,23 @@ textarea {
   resize: none; }
 
 ::-webkit-input-placeholder {
-  color: #474544; }
+  color: #000000; }
 
 :-moz-placeholder {
-  color: #474544;
+  color: #000000;
   opacity: 1; }
 
 ::-moz-placeholder {
-  color: #474544;
+  color: #000000;
   opacity: 1; }
 
 :-ms-input-placeholder {
-  color: #474544; }
+  color: #000000; }
 
 #form_button {
   background: none;
-  border: solid 2px #474544;
-  color: #474544;
+  border: solid 2px #000000;
+  color: #000000;
   cursor: pointer;
   display: inline-block;
   font-family: 'Helvetica', Arial, sans-serif;
@@ -293,10 +294,13 @@ textarea {
   transition: all 0.3s; }
 
 #form_button:hover {
-  background: #474544;
-  color: #F2F3EB; }
+  background: #000000;
+  color: #000000; }
 
 .contactoTraining {
+  border-radius: 13px; }
+
+.trailer {
   border-radius: 13px; }
 
 .footer {
@@ -345,10 +349,21 @@ textarea {
   margin: 0 !important;
   padding: 25px; }
 
+@media screen and (max-width: 2560px) {
+  .saludo {
+    max-width: 100%;
+    margin-top: 30rem;
+    margin-bottom: 30rem;
+    z-index: -1; }
+  .footer {
+    margin-top: 8rem; } }
+
 @media screen and (max-width: 1440px) {
   .saludo {
     max-width: 100%;
-    margin-bottom: -2rem; }
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    z-index: -1; }
   .footer {
     margin-top: 8rem; }
   .img-fluid {
@@ -422,7 +437,12 @@ textarea {
   .footer {
     max-width: 100%;
     grid-area: footer;
-    margin-top: -2rem; }
+    margin-top: 4rem; }
+  .saludo {
+    max-width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    z-index: -1; }
   .widget1 {
     margin-top: 30px;
     padding: 20px; }
@@ -459,9 +479,6 @@ textarea {
   .surfar {
     font-size: 3rem;
     max-width: 100%; }
-  .saludo {
-    max-width: 100%;
-    margin-bottom: 4rem; }
   .img-fluid {
     max-width: 100%; }
   .shiny {
@@ -475,7 +492,16 @@ textarea {
   .container .imgHome {
     width: 100%;
     height: 250px;
-    object-fit: contain; } }
+    object-fit: contain; }
+  .footer {
+    max-width: 100%;
+    grid-area: footer;
+    margin-top: 3rem; }
+  .saludo {
+    max-width: 100%;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    z-index: -1; } }
 
 @media screen and (max-width: 600px) {
   h2 {
