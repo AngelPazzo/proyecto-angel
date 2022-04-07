@@ -412,9 +412,21 @@
 }
 .shiny1{
 max-width: 100%;
+width: 170px;
 overflow: hidden;
+float: right;
 }
 
 
 
+}
+
+
+@media screen and (max-width: 425px) {
+  .shiny{
+    max-width: 100%;
+    width: 60px;
+    float: right;
+  }
+  
 }

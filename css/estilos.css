@@ -70,8 +70,11 @@
   overflow: hidden; }
 
 .shiny1 {
-  display: flex;
-  justify-content: center; }
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  float: right; }
 
 .navbar-nav {
   display: flex;
@@ -622,7 +625,15 @@ textarea {
     max-width: 100%; }
   .shiny1 {
     max-width: 100%;
-    overflow: hidden; } }
+    width: 170px;
+    overflow: hidden;
+    float: right; } }
+
+@media screen and (max-width: 425px) {
+  .shiny {
+    max-width: 100%;
+    width: 60px;
+    float: right; } }
 
 /* NOSOTROS TEAM */
 .navbar {
