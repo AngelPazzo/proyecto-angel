@@ -631,18 +631,25 @@ textarea {
   .schedule {
     text-align: left;
     font-size: 3vw;
-    max-width: 100%; } }
+    max-width: 100%; }
+  .card-body {
+    width: 100%;
+    font-size: 1.3vw; } }
 
 @media screen and (max-width: 425px) {
   .shiny {
-    max-width: 100%; }
+    max-width: 100%;
+    opacity: 0.9; }
   .shiny1 {
     z-index: 1;
     max-width: 70%;
     position: fixed;
     bottom: 0px;
     right: 0px;
-    margin-bottom: 2rem; } }
+    margin-bottom: 2rem; }
+  .card-body {
+    width: 100% !important;
+    font-size: 1.3vw; } }
 
 /* NOSOTROS TEAM */
 .navbar {

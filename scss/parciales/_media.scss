@@ -440,6 +440,11 @@
   max-width: 100%;
 }
 
+.card-body {
+  width: 100%;
+  font-size: 1.3vw;
+}
+
 
 
 }
@@ -448,7 +453,7 @@
 @media screen and (max-width: 425px) {
   .shiny{
     max-width: 100%;
-    
+    opacity: 0.9;
    
   }
 
@@ -461,5 +466,10 @@
     margin-bottom: 2rem;
 
   }
+
+  .card-body {
+    width: 100% !important;
+    font-size: 1.3vw;
+}
   
 }
