@@ -355,6 +355,10 @@ textarea {
     position: fixed;
     bottom: 0px;
     right: 0px;
+    max-width: 100%; }
+  .schedule {
+    text-align: center;
+    font-size: 1.5vw;
     max-width: 100%; } }
 
 @media screen and (max-width: 1440px) {
@@ -367,7 +371,11 @@ textarea {
     max-width: 100%;
     position: fixed;
     bottom: 0px;
-    right: 0px; } }
+    right: 0px; }
+  .schedule {
+    text-align: center;
+    font-size: 1.5vw;
+    max-width: 100%; } }
 
 @media screen and (max-width: 1024px) {
   h2 {
@@ -476,7 +484,11 @@ textarea {
     position: fixed;
     bottom: 0px;
     right: 0px;
-    padding: 20px; } }
+    padding: 20px; }
+  .schedule {
+    text-align: center;
+    font-size: 1.5vw;
+    max-width: 100%; } }
 
 @media screen and (max-width: 768px) {
   .container {
@@ -496,7 +508,11 @@ textarea {
     position: fixed;
     bottom: 0px;
     right: 0px;
-    padding: 20px; } }
+    padding: 20px; }
+  .schedule {
+    text-align: center;
+    font-size: 1.5vw;
+    max-width: 100%; } }
 
 @media screen and (max-width: 600px) {
   h2 {
@@ -611,7 +627,11 @@ textarea {
     position: fixed;
     bottom: 0px;
     right: 0px;
-    padding: 20px; } }
+    padding: 20px; }
+  .schedule {
+    text-align: left;
+    font-size: 3vw;
+    max-width: 100%; } }
 
 @media screen and (max-width: 425px) {
   .shiny {
@@ -718,6 +738,11 @@ h2 {
 
 .roundedTraining {
   border-radius: 16px; }
+
+.schedule {
+  text-align: center;
+  font-size: 1.5vw;
+  max-width: 100%; }
 
 .listaPlayas {
   list-style: none;

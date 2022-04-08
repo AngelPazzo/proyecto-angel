@@ -10,8 +10,14 @@
     right: 0px; 
     max-width: 100%;
   }
+  .schedule{
+    text-align: center ;
+    font-size: 1.5vw;
+    max-width: 100%;
+  }
+ 
 
-  
+
 }
 
 
@@ -32,7 +38,12 @@
       right: 0px; 
      
   }
-
+  .schedule{
+    text-align: center ;
+    font-size: 1.5vw;
+    max-width: 100%;
+  }
+ 
 }
 
 
@@ -199,6 +210,12 @@
     right: 0px; 
     padding: 20px;
   }
+  .schedule{
+    text-align: center ;
+    font-size: 1.5vw;
+    max-width: 100%;
+  }
+ 
 
 
   }
@@ -237,6 +254,12 @@
     right: 0px; 
     padding: 20px;
 }
+
+ .schedule{
+   text-align: center ;
+   font-size: 1.5vw;
+   max-width: 100%;
+ }
 
 
 
@@ -411,6 +434,11 @@
             right: 0px; 
             padding: 20px;
 }
+.schedule{
+  text-align: left ;
+  font-size: 3vw;
+  max-width: 100%;
+}
 
 
 
@@ -420,6 +448,7 @@
 @media screen and (max-width: 425px) {
   .shiny{
     max-width: 100%;
+    
    
   }
 
