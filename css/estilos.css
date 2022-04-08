@@ -349,7 +349,7 @@ textarea {
 
 @media screen and (max-width: 2560px) {
   .footer {
-    margin-top: 3rem; }
+    margin-top: 8rem; }
   .shiny1 {
     z-index: 1;
     position: fixed;
@@ -732,6 +732,13 @@ h2 {
 /* SURFSHOP */
 :root {
   --gradient: linear-gradient(to left top, #24dd90 10%, #f10059 90%) !important; }
+
+.tiendas {
+  background-color: #5fcced;
+  border-radius: 13px;
+  text-align: center;
+  padding: 20px;
+  color: #222; }
 
 a.btn {
   color: #13ec92; }
