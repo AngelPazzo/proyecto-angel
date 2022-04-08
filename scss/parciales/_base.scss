@@ -90,22 +90,23 @@ justify-content: space-around;
         -webkit-transform: rotate(360deg);
         }
 }
+.container-fluid1{
+    display: flex;
+    flex-wrap: nowrap  !important;
+}
 
 .shiny{  
-    position:relative;
-    overflow: hidden;
+    // position:relative;
+    // overflow: hidden;
   }
-//   .shiny1{
-//       display: flex;
-//       justify-content: center;
-//   }
+
   
 .shiny1 {
-    position: -webkit-sticky;  
-      position: sticky;
-      top: 0; 
-      z-index: 1;
-      float: right;
+    
+    position: fixed;
+    bottom: 10px;
+    right: 0px; 
+    padding: 20px;
   }   
 
   
@@ -133,26 +134,13 @@ body {
 .widget1{
     margin-top: 30px;
     padding: 20px;
+    background-color: #5fcced;
+    border-radius: 13px;
+    text-align: center;
 }
 
 
 
-.widget2{
-    height: 100px;
-    text-align: map-get($edit, centro);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url(../../img/footer1.png);
-    background-repeat: no-repeat;
-    max-width: 100%;
-    margin: 3rem;
-    grid-area: widget2;
-}
-.saludo{
-    max-width: 100%;
-    margin-bottom: 6rem;
-  }
 
 
 
@@ -167,7 +155,7 @@ p {
  
 h6 {
     padding-top: 50px;
-    text-align: right;
+    text-align: center;
     font-size: 12px;
     color: rgb(5, 0, 0);
     
@@ -195,6 +183,8 @@ h6 {
   }
   .introduccion{
       margin: 5rem;
+      background-color: #5fcced;
+      border-radius: 13px;
   }
   
   .surfar {
@@ -214,5 +204,10 @@ h6 {
     
   }
 
+
+  .row{
+      background-color: black;
+      border-radius: 13px;
+  }
 
 

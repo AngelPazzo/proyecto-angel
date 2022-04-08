@@ -65,16 +65,15 @@
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg); }
 
-.shiny {
-  position: relative;
-  overflow: hidden; }
+.container-fluid1 {
+  display: flex;
+  flex-wrap: nowrap  !important; }
 
 .shiny1 {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  float: right; }
+  position: fixed;
+  bottom: 10px;
+  right: 0px;
+  padding: 20px; }
 
 .navbar-nav {
   display: flex;
@@ -90,30 +89,17 @@ body {
 
 .widget1 {
   margin-top: 30px;
-  padding: 20px; }
-
-.widget2 {
-  height: 100px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../../img/footer1.png);
-  background-repeat: no-repeat;
-  max-width: 100%;
-  margin: 3rem;
-  grid-area: widget2; }
-
-.saludo {
-  max-width: 100%;
-  margin-bottom: 6rem; }
+  padding: 20px;
+  background-color: #5fcced;
+  border-radius: 13px;
+  text-align: center; }
 
 p {
   color: #030303; }
 
 h6 {
   padding-top: 50px;
-  text-align: right;
+  text-align: center;
   font-size: 12px;
   color: #050000; }
 
@@ -133,7 +119,9 @@ h6 {
   margin-top: 150px; }
 
 .introduccion {
-  margin: 5rem; }
+  margin: 5rem;
+  background-color: #5fcced;
+  border-radius: 13px; }
 
 .surfar {
   font-family: 'Lobster', cursive;
@@ -149,6 +137,10 @@ h6 {
   transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   /*-----------------------*/
   text-shadow: 1px 1px #4A744D, 2px 2px #4A744D, 3px 3px #4A744D, 4px 4px #4A744D, 5px 5px #4A744D, 6px 6px #4A744D, 7px 7px #4A744D, 8px 8px #4A744D, 9px 9px #4A744D, 10px 10px #4A744D, 11px 11px #4A744D, 12px 12px #4A744D, 13px 13px #4A744D, 14px 14px #4A744D, 15px 15px #4A744D, 16px 16px #4A744D, 17px 17px #4A744D, 18px 18px #4A744D, 19px 19px #4A744D, 20px 20px #4A744D, 21px 21px #4A744D, 22px 22px #4A744D, 23px 23px #4A744D, 24px 24px #4A744D, 25px 25px #4A744D, 26px 26px 6px #06520C; }
+
+.row {
+  background-color: black;
+  border-radius: 13px; }
 
 /* FORMULARIO NUEVO  */
 html {
@@ -310,7 +302,10 @@ textarea {
   width: 100%;
   float: left;
   clear: both;
-  grid-area: footer; }
+  grid-area: footer;
+  background-color: #5fcced;
+  margin-top: 5rem;
+  border-radius: 13px; }
 
 .redes {
   display: flex;
@@ -353,24 +348,26 @@ textarea {
   padding: 25px; }
 
 @media screen and (max-width: 2560px) {
-  .saludo {
-    max-width: 100%;
-    margin-top: 30rem;
-    margin-bottom: 30rem;
-    z-index: -1; }
   .footer {
-    margin-top: 8rem; } }
+    margin-top: 3rem; }
+  .shiny1 {
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    max-width: 100%; } }
 
 @media screen and (max-width: 1440px) {
-  .saludo {
-    max-width: 100%;
-    margin-top: 10rem;
-    margin-bottom: 6rem;
-    z-index: -1; }
   .footer {
     margin-top: 8rem; }
   .img-fluid {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .shiny1 {
+    z-index: 1;
+    max-width: 100%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px; } }
 
 @media screen and (max-width: 1024px) {
   h2 {
@@ -441,25 +438,12 @@ textarea {
     max-width: 100%;
     grid-area: footer;
     margin-top: 4rem; }
-  .saludo {
-    max-width: 100%;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-    z-index: -1; }
   .widget1 {
     margin-top: 30px;
     padding: 20px; }
-  .widget2 {
-    height: 100px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-area: widget2;
-    max-width: 100%; }
   h6 {
     padding-top: 50px;
-    text-align: right;
+    text-align: center;
     font-size: 12px; }
   .container {
     max-width: 100%; }
@@ -486,7 +470,13 @@ textarea {
     max-width: 100%; }
   .shiny {
     transform: translateZ(10px);
-    max-width: 100%; } }
+    max-width: 100%; }
+  .shiny1 {
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px; } }
 
 @media screen and (max-width: 768px) {
   .container {
@@ -500,11 +490,13 @@ textarea {
     max-width: 100%;
     grid-area: footer;
     margin-top: 3rem; }
-  .saludo {
+  .shiny1 {
+    z-index: 1;
     max-width: 100%;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-    z-index: -1; } }
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px; } }
 
 @media screen and (max-width: 600px) {
   h2 {
@@ -575,23 +567,13 @@ textarea {
   .widget1 {
     margin-top: 30px;
     padding: 20px; }
-  .widget2 {
-    height: 100px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    grid-area: widget2;
-    max-width: 100%; }
-  .saludo {
-    display: none; }
   .footer {
     max-width: 100%;
     grid-area: footer;
-    margin-top: -11rem; }
+    margin-top: 4rem; }
   h6 {
     padding-top: 50px;
-    text-align: right;
+    text-align: center;
     font-size: 12px; }
   .container {
     max-width: 100%; }
@@ -624,16 +606,23 @@ textarea {
   .shiny {
     max-width: 100%; }
   .shiny1 {
+    z-index: 1;
     max-width: 100%;
-    width: 170px;
-    overflow: hidden;
-    float: right; } }
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px; } }
 
 @media screen and (max-width: 425px) {
   .shiny {
-    max-width: 100%;
-    width: 60px;
-    float: right; } }
+    max-width: 100%; }
+  .shiny1 {
+    z-index: 1;
+    max-width: 70%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 2rem; } }
 
 /* NOSOTROS TEAM */
 .navbar {
