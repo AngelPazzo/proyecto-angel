@@ -38,7 +38,9 @@ justify-content: space-around;
  }
  
 
- 
+ .navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
 
 
  
@@ -63,10 +65,6 @@ justify-content: space-around;
 
 
 
-
-// .navbar {
-//     background-color: transparent !important;
-// }
 
 .navbar {
     background-color: #ffffff52 !important;
