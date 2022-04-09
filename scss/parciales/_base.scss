@@ -64,8 +64,19 @@ justify-content: space-around;
 
 
 
+// .navbar {
+//     background-color: transparent !important;
+// }
+
 .navbar {
-    background-color: transparent !important;
+    background-color: #09d3f3 !important;
+    border-radius: 13px;
+}
+
+
+.navbar-light .navbar-toggler {
+    color: rgb(0, 0, 0) !important;
+    border-color: rgb(0, 0, 0) !important;
 }
 
 
@@ -92,6 +103,7 @@ justify-content: space-around;
 }
 .container-fluid1{
     display: flex;
+    justify-content: flex-end;
     flex-wrap: nowrap  !important;
 }
 
@@ -110,6 +122,11 @@ justify-content: space-around;
   .navbar-nav{
       display: flex;
       justify-content: center;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    
+      justify-content: flex-end !important;
   }
   
 
@@ -185,12 +202,12 @@ h6 {
   }
   
   .surfar {
-    font-family: 'Lobster', cursive;
+    font-family: Kalam;
     font-size: 5rem;
     color: #e770bd;
     text-align: map-get($edit, centro);
     line-height: 50px;
-    margin-top: -450px;
+    margin-top: -415px;
     -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);

@@ -48,7 +48,12 @@
   width: 5rem; }
 
 .navbar {
-  background-color: transparent !important; }
+  background-color: #09d3f3 !important;
+  border-radius: 13px; }
+
+.navbar-light .navbar-toggler {
+  color: black !important;
+  border-color: black !important; }
 
 .navbar-brand {
   width: 120px;
@@ -67,6 +72,7 @@
 
 .container-fluid1 {
   display: flex;
+  justify-content: flex-end;
   flex-wrap: nowrap  !important; }
 
 .shiny1 {
@@ -78,6 +84,9 @@
 .navbar-nav {
   display: flex;
   justify-content: center; }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end !important; }
 
 body {
   background: #020024;
@@ -124,12 +133,12 @@ h6 {
   border-radius: 13px; }
 
 .surfar {
-  font-family: 'Lobster', cursive;
+  font-family: Kalam;
   font-size: 5rem;
   color: #e770bd;
   text-align: center;
   line-height: 50px;
-  margin-top: -450px;
+  margin-top: -415px;
   -moz-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   -webkit-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   -o-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
@@ -611,8 +620,7 @@ textarea {
     height: 200px; }
   .surfar {
     font-size: 2rem;
-    max-width: 100%;
-    font-family: unset; }
+    max-width: 100%; }
   .introduccion {
     margin: 0 auto;
     margin-top: 3rem;
@@ -652,13 +660,9 @@ textarea {
     font-size: 1.3vw; }
   .surfar {
     font-size: 2rem;
-    max-width: 100%;
-    font-family: unset; } }
+    max-width: 100%; } }
 
 /* NOSOTROS TEAM */
-.navbar {
-  background-color: transparent !important; }
-
 p {
   color: #030303; }
 
@@ -774,7 +778,8 @@ h2 {
   border-radius: 13px;
   text-align: center;
   padding: 20px;
-  color: #222; }
+  color: #222;
+  margin-top: 20px; }
 
 a.btn {
   color: #13ec92; }
