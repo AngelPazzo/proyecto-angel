@@ -649,7 +649,11 @@ textarea {
     margin-bottom: 2rem; }
   .card-body {
     width: 100% !important;
-    font-size: 1.3vw; } }
+    font-size: 1.3vw; }
+  .surfar {
+    font-size: 2rem;
+    max-width: 100%;
+    font-family: unset; } }
 
 /* NOSOTROS TEAM */
 .navbar {
