@@ -1,51 +1,42 @@
 .footer {
-    width: 100%;
-    float: left;
-    clear: both;
-    grid-area: footer;
-    background-color: #f8ffff57;
-    margin-top: 5rem;
-    border-radius: 13px;
-        
-  }
+  width: 100%;
+  float: left;
+  clear: both;
+  grid-area: footer;
+  background-color: #f8ffff57;
+  margin-top: 5rem;
+  border-radius: 13px;
+}
 
-  
-  
-  .redes {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 70%;
-    margin: 0 auto;
-    
-  }
-  
-  .redes a {
-    padding-top: 50px;
-    cursor: pointer; 
-    font-size: 2rem;
-  }
-  
-  .facebook {
-    color: #3030b8;
-    font-size: $tamañoRedes; }
-  
-  .youtube {
-    color: red;
-    font-size: $tamañoRedes; }
-  
-  .twitter {
-    color: #000308;
-    font-size: $tamañoRedes; }
-  
-  .whatsapp {
-    color: #1a961a;
-    font-size: $tamañoRedes; }
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 70%;
+  margin: 0 auto;
+}
 
-  
+.redes a {
+  padding-top: 50px;
+  cursor: pointer;
+  font-size: 2rem;
+}
 
+.facebook {
+  color: #3030b8;
+  font-size: $tamañoRedes;
+}
 
+.youtube {
+  color: red;
+  font-size: $tamañoRedes;
+}
 
+.twitter {
+  color: #000308;
+  font-size: $tamañoRedes;
+}
 
-    
-
-  
+.whatsapp {
+  color: #1a961a;
+  font-size: $tamañoRedes;
+}

@@ -1,20 +1,15 @@
-
 /* Home Page  Ini*/
-/* IMG GALLERY*/ 
+/* IMG GALLERY*/
 
-
-.container{
- .imgHome{
-    @include sizes (100%, 250px);
-    }
-   .imgHome:hover{
-        border: 5px solid rgb(245, 61, 199);
-    }
-    .col-lg-4{
-        margin: 0 !important;
-        padding: 25px;
-    }
+.container {
+  .imgHome {
+    @include sizes(100%, 250px);
+  }
+  .imgHome:hover {
+    border: 5px solid rgb(245, 61, 199);
+  }
+  .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+  }
 }
-
-  
-  
