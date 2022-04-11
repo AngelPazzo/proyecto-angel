@@ -44,7 +44,7 @@
   background: rgba(37, 233, 135, 0.897);
   box-shadow: 0px 0px 15px 15px #0c60c0;
   -webkit-box-shadow: 0px 0px 15px 15px #0c60c0;
-  transition: .7s;
+  transition: 0.7s;
   border: 5px;
   border-radius: 87px;
   border-bottom-style: hidden;
@@ -76,7 +76,7 @@
 .container-fluid1 {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: nowrap  !important; }
+  flex-wrap: nowrap !important; }
 
 .shiny1 {
   position: fixed;
@@ -94,7 +94,7 @@
 body {
   background: #020024;
   background: linear-gradient(90deg, #ee492c 1%, #ccc309 30%, #00d4ff 100%);
-  font-family: 'Original Surfer', cursive;
+  font-family: "Original Surfer", cursive;
   margin: 20px;
   background-repeat: no-repeat;
   overflow-x: hidden; }
@@ -148,7 +148,7 @@ h6 {
   -ms-transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   transform: scale(1) rotate(-5deg) translateX(0px) translateY(0px) skewX(1deg) skewY(1deg);
   /*-----------------------*/
-  text-shadow: 1px 1px #4A744D, 2px 2px #4A744D, 3px 3px #4A744D, 4px 4px #4A744D, 5px 5px #4A744D, 6px 6px #4A744D, 7px 7px #4A744D, 8px 8px #4A744D, 9px 9px #4A744D, 10px 10px #4A744D, 11px 11px #4A744D, 12px 12px #4A744D, 13px 13px #4A744D, 14px 14px #4A744D, 15px 15px #4A744D, 16px 16px #4A744D, 17px 17px #4A744D, 18px 18px #4A744D, 19px 19px #4A744D, 20px 20px #4A744D, 21px 21px #4A744D, 22px 22px #4A744D, 23px 23px #4A744D, 24px 24px #4A744D, 25px 25px #4A744D, 26px 26px 6px #06520C; }
+  text-shadow: 1px 1px #4a744d, 2px 2px #4a744d, 3px 3px #4a744d, 4px 4px #4a744d, 5px 5px #4a744d, 6px 6px #4a744d, 7px 7px #4a744d, 8px 8px #4a744d, 9px 9px #4a744d, 10px 10px #4a744d, 11px 11px #4a744d, 12px 12px #4a744d, 13px 13px #4a744d, 14px 14px #4a744d, 15px 15px #4a744d, 16px 16px #4a744d, 17px 17px #4a744d, 18px 18px #4a744d, 19px 19px #4a744d, 20px 20px #4a744d, 21px 21px #4a744d, 22px 22px #4a744d, 23px 23px #4a744d, 24px 24px #4a744d, 25px 25px #4a744d, 26px 26px 6px #06520c; }
 
 .row {
   background-color: #00000042;
@@ -156,17 +156,21 @@ h6 {
 
 /* FORMULARIO NUEVO  */
 html {
-  font-family: 'Montserrat', Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
 button {
   overflow: visible; }
 
-button, select {
+button,
+select {
   text-transform: none; }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   color: #000000;
   font: inherit;
   margin: 0; }
@@ -216,12 +220,15 @@ h1 {
   float: right;
   width: 45%; }
 
-input[type='text'], [type='email'], select, textarea {
+input[type="text"],
+[type="email"],
+select,
+textarea {
   background: none;
   border: none;
   border-bottom: solid 2px #000000;
   color: #000000;
-  font-size: 1.000em;
+  font-size: 1em;
   font-weight: 400;
   letter-spacing: 1px;
   margin: 0em 0 1.875em 0;
@@ -239,7 +246,9 @@ input[type='text'], [type='email'], select, textarea {
   -o-transition: all 0.3s;
   transition: all 0.3s; }
 
-input[type='text']:focus, [type='email']:focus, textarea:focus {
+input[type="text"]:focus,
+[type="email"]:focus,
+textarea:focus {
   outline: none;
   padding: 0 0 0.875em 0; }
 
@@ -288,7 +297,7 @@ textarea {
   color: #000000;
   cursor: pointer;
   display: inline-block;
-  font-family: 'Helvetica', Arial, sans-serif;
+  font-family: "Helvetica", Arial, sans-serif;
   font-size: 0.875em;
   font-weight: bold;
   outline: none;
@@ -824,7 +833,7 @@ div.card {
   -webkit-text-fill-color: transparent !important;
   border-image-source: var(--gradient) !important;
   text-decoration: none;
-  transition: all .4s ease; }
+  transition: all 0.4s ease; }
 
 .btn:hover:focus {
   background: var(--gradient) !important;
