@@ -33,7 +33,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 .nav-item {
@@ -55,8 +55,8 @@
 }
 
 .navbar-light .navbar-toggler {
-  color: rgb(0, 0, 0) !important;
-  border-color: rgb(0, 0, 0) !important;
+  color: #14f7d8 !important;
+  border-color: #000000 !important;
 }
 
 .navbar-brand {
@@ -64,7 +64,7 @@
   border-style: solid;
   border-radius: 100%;
   border-color: black;
-  background-color: rgba(37, 233, 135, 0.897);
+  background-color: #14f7d8;
 }
 
 .navbar-brand {
@@ -100,7 +100,8 @@
 }
 
 body {
-  background: rgb(2, 0, 36);
+  // background: rgb(0, 0, 0);
+
   background: $colorDeFondo;
   font-family: "Original Surfer", cursive;
   margin: 20px;
