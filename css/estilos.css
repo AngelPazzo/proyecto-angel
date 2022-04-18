@@ -784,7 +784,8 @@ h2 {
 
 .listaPlayas {
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  padding: 0; }
 
 .cam {
   border-radius: 13px; }
