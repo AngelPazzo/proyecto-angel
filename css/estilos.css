@@ -92,7 +92,7 @@
   justify-content: flex-end !important; }
 
 body {
-  background: linear-gradient(90deg, #ee492c 1%, #ccc309 30%, #00d4ff 100%);
+  background: linear-gradient(186deg, #ee492c 1%, #ccc309 30%, #00d4ff 100%);
   font-family: "Original Surfer", cursive;
   margin: 20px;
   background-repeat: no-repeat;
@@ -361,7 +361,7 @@ textarea {
   height: 250px; }
 
 .container .imgHome:hover {
-  border: 5px solid #f53dc7; }
+  border: 5px solid black; }
 
 .container .col-lg-4 {
   margin: 0 !important;
