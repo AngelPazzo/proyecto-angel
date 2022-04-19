@@ -38,7 +38,7 @@
   text-align: center; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #000000; }
+  color: black; }
 
 .nav-item:hover {
   background: rgba(37, 233, 135, 0.897);
@@ -55,8 +55,8 @@
   border-radius: 13px; }
 
 .navbar-light .navbar-toggler {
-  color: #14f7d8 !important;
-  border-color: #000000 !important; }
+  color: black !important;
+  border-color: black !important; }
 
 .navbar-brand {
   width: 120px;
@@ -92,6 +92,7 @@
   justify-content: flex-end !important; }
 
 body {
+  background: #020024;
   background: linear-gradient(186deg, #ee492c 1%, #ccc309 30%, #00d4ff 100%);
   font-family: "Original Surfer", cursive;
   margin: 20px;
