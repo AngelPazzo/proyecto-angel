@@ -55,8 +55,9 @@
   border-radius: 13px; }
 
 .navbar-light .navbar-toggler {
-  color: black !important;
-  border-color: black !important; }
+  color: #14bdbd !important;
+  border-color: #319495 !important;
+  border: groove; }
 
 .navbar-brand {
   width: 120px;
